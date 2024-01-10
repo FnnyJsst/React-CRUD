@@ -10,8 +10,17 @@ export default function UserTable() {
                         <th scope="col">Actions</th>
                     </tr>
                 </thead>
+                <tr></tr>
                 <tbody>
-
+                    <tr>
+                <th scope="row">1</th>
+                    <td>Name</td>
+                    <td>UserName</td>
+                    <td>
+                        <button className="btn btn-outline-dark">Edit</button>
+                        <button className="btn btn-outline-dark">Delete</button>
+                    </td>
+                    </tr>
                 </tbody>
               
             </table>
